@@ -1,0 +1,1 @@
+# sejoli-plugin-updater
