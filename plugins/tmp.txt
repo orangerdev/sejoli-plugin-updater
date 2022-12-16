@@ -1,0 +1,1299 @@
+[01/Dec/2022 15:59:26] setup Updater
+[01/Dec/2022 15:59:26] get version from core file
+[01/Dec/2022 15:59:26] 
+[01/Dec/2022 15:59:26] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 15:59:26] download patch
+[01/Dec/2022 15:59:26] start downloading
+[01/Dec/2022 15:59:32] Complete.
+[01/Dec/2022 16:03:11] setup Updater
+[01/Dec/2022 16:03:11] get version from core file
+[01/Dec/2022 16:03:11] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:03:17] setup Updater
+[01/Dec/2022 16:03:17] get version from core file
+[01/Dec/2022 16:03:17] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:03:22] setup Updater
+[01/Dec/2022 16:03:22] get version from core file
+[01/Dec/2022 16:03:23] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:03:23] download patch
+[01/Dec/2022 16:03:23] start downloading
+[01/Dec/2022 16:03:28] Complete.
+[01/Dec/2022 16:03:34] setup Updater
+[01/Dec/2022 16:03:34] get version from core file
+[01/Dec/2022 16:03:34] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:04:12] setup Updater
+[01/Dec/2022 16:04:12] get version from core file
+[01/Dec/2022 16:04:13] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:04:13] File exist.
+[01/Dec/2022 16:07:04] setup Updater
+[01/Dec/2022 16:07:04] get version from core file
+[01/Dec/2022 16:07:06] compare current version with repo version  vs 1.0.0
+[01/Dec/2022 16:07:06] File exist.
+[02/Dec/2022 05:54:59] setup Updater
+[02/Dec/2022 05:54:59] get version from core file
+[02/Dec/2022 05:55:00] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 05:55:00] File exist.
+[02/Dec/2022 06:53:51] setup Updater
+[02/Dec/2022 06:53:51] get version from core file
+[02/Dec/2022 06:53:51] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 06:53:51] File exist.
+[02/Dec/2022 08:40:06] setup Updater
+[02/Dec/2022 08:40:06] get version from core file
+[02/Dec/2022 08:40:07] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 08:40:07] File exist.
+[02/Dec/2022 08:40:07] setup Updater
+[02/Dec/2022 08:40:07] get version from core file
+[02/Dec/2022 08:40:08] compare current version with repo version  vs 1.11.4
+[02/Dec/2022 08:40:08] download patch
+[02/Dec/2022 08:40:08] start downloading
+[02/Dec/2022 08:44:33] setup Updater
+[02/Dec/2022 08:44:33] get version from core file
+[02/Dec/2022 08:44:34] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 08:44:34] File exist.
+[02/Dec/2022 08:44:34] setup Updater
+[02/Dec/2022 08:44:34] get version from core file
+[02/Dec/2022 08:44:35] compare current version with repo version  vs 1.11.4
+[02/Dec/2022 08:44:35] File exist.
+[02/Dec/2022 08:44:41] setup Updater
+[02/Dec/2022 08:44:41] get version from core file
+[02/Dec/2022 08:44:41] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 08:44:41] File exist.
+[02/Dec/2022 08:44:41] setup Updater
+[02/Dec/2022 08:44:41] get version from core file
+[02/Dec/2022 08:44:43] compare current version with repo version  vs 1.11.4
+[02/Dec/2022 08:44:43] File exist.
+[02/Dec/2022 08:44:51] setup Updater
+[02/Dec/2022 08:44:51] get version from core file
+[02/Dec/2022 08:44:51] compare current version with repo version  vs 1.0.0
+[02/Dec/2022 08:44:51] File exist.
+[02/Dec/2022 08:44:51] setup Updater
+[02/Dec/2022 08:44:51] get version from core file
+[02/Dec/2022 08:44:52] compare current version with repo version  vs 1.11.4
+[02/Dec/2022 08:44:52] download patch
+[02/Dec/2022 08:44:52] start downloading
+[02/Dec/2022 08:45:24] Complete.
+[03/Dec/2022 07:26:08] setup Updater
+[03/Dec/2022 07:26:08] get version from core file
+[03/Dec/2022 07:26:09] compare current version with repo version  vs 1.0.0
+[03/Dec/2022 07:26:09] File exist.
+[03/Dec/2022 07:26:09] setup Updater
+[03/Dec/2022 07:26:09] get version from core file
+[03/Dec/2022 07:26:11] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 07:26:11] download patch
+[03/Dec/2022 07:26:11] start downloading
+[03/Dec/2022 07:40:34] setup Updater
+[03/Dec/2022 07:40:34] get version from core file
+[03/Dec/2022 07:40:35] compare current version with repo version  vs 1.0.0
+[03/Dec/2022 07:40:35] File exist.
+[03/Dec/2022 07:40:35] setup Updater
+[03/Dec/2022 07:40:35] get version from core file
+[03/Dec/2022 07:40:38] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 07:40:38] download patch
+[03/Dec/2022 07:40:38] start downloading
+[03/Dec/2022 07:51:27] setup Updater
+[03/Dec/2022 07:51:27] get version from core file
+[03/Dec/2022 07:51:27] compare current version with repo version  vs 1.0.0
+[03/Dec/2022 07:51:27] File exist.
+[03/Dec/2022 07:51:27] setup Updater
+[03/Dec/2022 07:51:27] get version from core file
+[03/Dec/2022 07:51:29] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 07:51:29] download patch
+[03/Dec/2022 07:51:29] start downloading
+[03/Dec/2022 07:52:08] Complete.
+[03/Dec/2022 14:20:38] setup Updater
+[03/Dec/2022 14:20:38] get version from core file
+[03/Dec/2022 14:20:40] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:20:40] setup Updater
+[03/Dec/2022 14:20:40] get version from core file
+[03/Dec/2022 14:21:01] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:28:34] setup Updater
+[03/Dec/2022 14:28:34] get version from core file
+[03/Dec/2022 14:28:36] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:28:36] setup Updater
+[03/Dec/2022 14:28:36] get version from core file
+[03/Dec/2022 14:29:39] setup Updater
+[03/Dec/2022 14:29:39] get version from core file
+[03/Dec/2022 14:29:40] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:29:40] setup Updater
+[03/Dec/2022 14:29:40] get version from core file
+[03/Dec/2022 14:30:47] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:32:03] setup Updater
+[03/Dec/2022 14:32:03] get version from core file
+[03/Dec/2022 14:32:09] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:32:09] setup Updater
+[03/Dec/2022 14:32:09] get version from core file
+[03/Dec/2022 14:38:34] setup Updater
+[03/Dec/2022 14:38:34] get version from core file
+[03/Dec/2022 14:38:35] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:38:35] setup Updater
+[03/Dec/2022 14:38:35] get version from core file
+[03/Dec/2022 14:38:41] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:38:57] setup Updater
+[03/Dec/2022 14:38:57] get version from core file
+[03/Dec/2022 14:38:57] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:38:57] setup Updater
+[03/Dec/2022 14:38:57] get version from core file
+[03/Dec/2022 14:39:02] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:40:13] setup Updater
+[03/Dec/2022 14:40:13] get version from core file
+[03/Dec/2022 14:40:14] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:40:14] setup Updater
+[03/Dec/2022 14:40:14] get version from core file
+[03/Dec/2022 14:40:18] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:41:47] setup Updater
+[03/Dec/2022 14:41:47] get version from core file
+[03/Dec/2022 14:41:47] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:41:47] setup Updater
+[03/Dec/2022 14:41:47] get version from core file
+[03/Dec/2022 14:42:06] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:43:28] setup Updater
+[03/Dec/2022 14:43:28] get version from core file
+[03/Dec/2022 14:43:28] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:43:28] setup Updater
+[03/Dec/2022 14:43:28] get version from core file
+[03/Dec/2022 14:43:59] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:44:58] setup Updater
+[03/Dec/2022 14:44:58] get version from core file
+[03/Dec/2022 14:44:59] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:44:59] setup Updater
+[03/Dec/2022 14:44:59] get version from core file
+[03/Dec/2022 14:45:27] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:46:25] setup Updater
+[03/Dec/2022 14:46:25] get version from core file
+[03/Dec/2022 14:46:26] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:46:26] setup Updater
+[03/Dec/2022 14:46:26] get version from core file
+[03/Dec/2022 14:46:30] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:47:35] setup Updater
+[03/Dec/2022 14:47:35] get version from core file
+[03/Dec/2022 14:47:36] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:47:36] setup Updater
+[03/Dec/2022 14:47:36] get version from core file
+[03/Dec/2022 14:47:45] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:51:14] setup Updater
+[03/Dec/2022 14:51:14] get version from core file
+[03/Dec/2022 14:51:15] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:51:15] setup Updater
+[03/Dec/2022 14:51:15] get version from core file
+[03/Dec/2022 14:51:36] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:51:58] setup Updater
+[03/Dec/2022 14:51:58] get version from core file
+[03/Dec/2022 14:51:59] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:51:59] setup Updater
+[03/Dec/2022 14:51:59] get version from core file
+[03/Dec/2022 14:53:15] setup Updater
+[03/Dec/2022 14:53:15] get version from core file
+[03/Dec/2022 14:53:16] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:53:16] setup Updater
+[03/Dec/2022 14:53:16] get version from core file
+[03/Dec/2022 14:54:01] setup Updater
+[03/Dec/2022 14:54:01] get version from core file
+[03/Dec/2022 14:54:01] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:54:01] setup Updater
+[03/Dec/2022 14:54:01] get version from core file
+[03/Dec/2022 14:54:29] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:54:52] setup Updater
+[03/Dec/2022 14:54:52] get version from core file
+[03/Dec/2022 14:54:53] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:54:53] setup Updater
+[03/Dec/2022 14:54:53] get version from core file
+[03/Dec/2022 14:55:23] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 14:59:38] setup Updater
+[03/Dec/2022 14:59:38] get version from core file
+[03/Dec/2022 14:59:39] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 14:59:39] setup Updater
+[03/Dec/2022 14:59:39] get version from core file
+[03/Dec/2022 14:59:43] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:00:09] setup Updater
+[03/Dec/2022 15:00:09] get version from core file
+[03/Dec/2022 15:00:10] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:00:10] setup Updater
+[03/Dec/2022 15:00:10] get version from core file
+[03/Dec/2022 15:00:15] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:06:33] setup Updater
+[03/Dec/2022 15:06:33] get version from core file
+[03/Dec/2022 15:06:33] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:06:33] setup Updater
+[03/Dec/2022 15:06:33] get version from core file
+[03/Dec/2022 15:07:15] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:08:01] setup Updater
+[03/Dec/2022 15:08:01] get version from core file
+[03/Dec/2022 15:08:01] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:08:01] setup Updater
+[03/Dec/2022 15:08:01] get version from core file
+[03/Dec/2022 15:08:08] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:08:46] setup Updater
+[03/Dec/2022 15:08:46] get version from core file
+[03/Dec/2022 15:08:47] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:08:47] setup Updater
+[03/Dec/2022 15:08:47] get version from core file
+[03/Dec/2022 15:08:52] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:09:35] setup Updater
+[03/Dec/2022 15:09:35] get version from core file
+[03/Dec/2022 15:09:36] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:09:36] setup Updater
+[03/Dec/2022 15:09:36] get version from core file
+[03/Dec/2022 15:09:41] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:10:14] setup Updater
+[03/Dec/2022 15:10:14] get version from core file
+[03/Dec/2022 15:10:15] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:10:15] setup Updater
+[03/Dec/2022 15:10:15] get version from core file
+[03/Dec/2022 15:10:41] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:13:01] setup Updater
+[03/Dec/2022 15:13:01] get version from core file
+[03/Dec/2022 15:13:02] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:13:02] setup Updater
+[03/Dec/2022 15:13:02] get version from core file
+[03/Dec/2022 15:13:05] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:13:28] setup Updater
+[03/Dec/2022 15:13:28] get version from core file
+[03/Dec/2022 15:13:29] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:13:29] setup Updater
+[03/Dec/2022 15:13:29] get version from core file
+[03/Dec/2022 15:13:31] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:17:53] setup Updater
+[03/Dec/2022 15:17:53] get version from core file
+[03/Dec/2022 15:17:53] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:17:53] setup Updater
+[03/Dec/2022 15:17:53] get version from core file
+[03/Dec/2022 15:18:04] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:18:37] setup Updater
+[03/Dec/2022 15:18:37] get version from core file
+[03/Dec/2022 15:18:38] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:18:38] setup Updater
+[03/Dec/2022 15:18:38] get version from core file
+[03/Dec/2022 15:18:41] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:19:54] setup Updater
+[03/Dec/2022 15:19:54] get version from core file
+[03/Dec/2022 15:19:54] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:19:54] setup Updater
+[03/Dec/2022 15:19:54] get version from core file
+[03/Dec/2022 15:22:50] setup Updater
+[03/Dec/2022 15:22:50] get version from core file
+[03/Dec/2022 15:22:50] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:22:50] setup Updater
+[03/Dec/2022 15:22:50] get version from core file
+[03/Dec/2022 15:23:16] setup Updater
+[03/Dec/2022 15:23:16] get version from core file
+[03/Dec/2022 15:23:17] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:23:17] setup Updater
+[03/Dec/2022 15:23:17] get version from core file
+[03/Dec/2022 15:26:00] setup Updater
+[03/Dec/2022 15:26:00] get version from core file
+[03/Dec/2022 15:26:01] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:26:01] setup Updater
+[03/Dec/2022 15:26:01] get version from core file
+[03/Dec/2022 15:26:04] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:27:21] setup Updater
+[03/Dec/2022 15:27:21] get version from core file
+[03/Dec/2022 15:27:21] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:27:21] setup Updater
+[03/Dec/2022 15:27:21] get version from core file
+[03/Dec/2022 15:28:09] setup Updater
+[03/Dec/2022 15:28:09] get version from core file
+[03/Dec/2022 15:28:09] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:28:09] setup Updater
+[03/Dec/2022 15:28:09] get version from core file
+[03/Dec/2022 15:28:20] setup Updater
+[03/Dec/2022 15:28:20] get version from core file
+[03/Dec/2022 15:28:21] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:28:21] setup Updater
+[03/Dec/2022 15:28:21] get version from core file
+[03/Dec/2022 15:29:27] setup Updater
+[03/Dec/2022 15:29:27] get version from core file
+[03/Dec/2022 15:29:28] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:29:28] setup Updater
+[03/Dec/2022 15:29:28] get version from core file
+[03/Dec/2022 15:31:09] setup Updater
+[03/Dec/2022 15:31:09] get version from core file
+[03/Dec/2022 15:31:10] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:31:10] setup Updater
+[03/Dec/2022 15:31:10] get version from core file
+[03/Dec/2022 15:32:07] setup Updater
+[03/Dec/2022 15:32:07] get version from core file
+[03/Dec/2022 15:32:08] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:32:08] setup Updater
+[03/Dec/2022 15:32:08] get version from core file
+[03/Dec/2022 15:32:13] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:35:02] setup Updater
+[03/Dec/2022 15:35:02] get version from core file
+[03/Dec/2022 15:35:02] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:35:02] setup Updater
+[03/Dec/2022 15:35:02] get version from core file
+[03/Dec/2022 15:35:06] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:35:42] setup Updater
+[03/Dec/2022 15:35:42] get version from core file
+[03/Dec/2022 15:35:42] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:35:42] setup Updater
+[03/Dec/2022 15:35:42] get version from core file
+[03/Dec/2022 15:35:53] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:36:55] setup Updater
+[03/Dec/2022 15:36:55] get version from core file
+[03/Dec/2022 15:36:56] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:36:56] setup Updater
+[03/Dec/2022 15:36:56] get version from core file
+[03/Dec/2022 15:36:59] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:37:24] setup Updater
+[03/Dec/2022 15:37:24] get version from core file
+[03/Dec/2022 15:37:24] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:37:24] setup Updater
+[03/Dec/2022 15:37:24] get version from core file
+[03/Dec/2022 15:37:27] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:37:51] setup Updater
+[03/Dec/2022 15:37:51] get version from core file
+[03/Dec/2022 15:37:52] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:37:52] setup Updater
+[03/Dec/2022 15:37:52] get version from core file
+[03/Dec/2022 15:37:55] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:38:14] setup Updater
+[03/Dec/2022 15:38:14] get version from core file
+[03/Dec/2022 15:38:15] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:38:15] setup Updater
+[03/Dec/2022 15:38:15] get version from core file
+[03/Dec/2022 15:38:17] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:38:33] setup Updater
+[03/Dec/2022 15:38:33] get version from core file
+[03/Dec/2022 15:38:34] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:38:34] setup Updater
+[03/Dec/2022 15:38:34] get version from core file
+[03/Dec/2022 15:38:38] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:42:54] setup Updater
+[03/Dec/2022 15:42:54] get version from core file
+[03/Dec/2022 15:42:55] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:42:55] setup Updater
+[03/Dec/2022 15:42:55] get version from core file
+[03/Dec/2022 15:42:59] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:45:32] setup Updater
+[03/Dec/2022 15:45:32] get version from core file
+[03/Dec/2022 15:45:32] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:45:32] setup Updater
+[03/Dec/2022 15:45:32] get version from core file
+[03/Dec/2022 15:45:35] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:47:45] setup Updater
+[03/Dec/2022 15:47:45] get version from core file
+[03/Dec/2022 15:47:45] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:47:45] setup Updater
+[03/Dec/2022 15:47:45] get version from core file
+[03/Dec/2022 15:47:48] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:48:24] setup Updater
+[03/Dec/2022 15:48:24] get version from core file
+[03/Dec/2022 15:48:25] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:48:25] setup Updater
+[03/Dec/2022 15:48:25] get version from core file
+[03/Dec/2022 15:53:26] setup Updater
+[03/Dec/2022 15:53:26] get version from core file
+[03/Dec/2022 15:53:27] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:53:27] setup Updater
+[03/Dec/2022 15:53:27] get version from core file
+[03/Dec/2022 15:53:33] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:54:29] setup Updater
+[03/Dec/2022 15:54:29] get version from core file
+[03/Dec/2022 15:54:30] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:54:30] setup Updater
+[03/Dec/2022 15:54:30] get version from core file
+[03/Dec/2022 15:54:46] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:55:15] setup Updater
+[03/Dec/2022 15:55:15] get version from core file
+[03/Dec/2022 15:55:16] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:55:16] setup Updater
+[03/Dec/2022 15:55:16] get version from core file
+[03/Dec/2022 15:55:50] setup Updater
+[03/Dec/2022 15:55:50] get version from core file
+[03/Dec/2022 15:55:50] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:55:50] setup Updater
+[03/Dec/2022 15:55:50] get version from core file
+[03/Dec/2022 15:57:08] setup Updater
+[03/Dec/2022 15:57:08] get version from core file
+[03/Dec/2022 15:57:15] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:57:15] setup Updater
+[03/Dec/2022 15:57:15] get version from core file
+[03/Dec/2022 15:57:53] setup Updater
+[03/Dec/2022 15:57:53] get version from core file
+[03/Dec/2022 15:57:54] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:57:54] setup Updater
+[03/Dec/2022 15:57:54] get version from core file
+[03/Dec/2022 15:58:09] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:58:11] setup Updater
+[03/Dec/2022 15:58:11] get version from core file
+[03/Dec/2022 15:58:13] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:58:13] setup Updater
+[03/Dec/2022 15:58:13] get version from core file
+[03/Dec/2022 15:58:30] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 15:59:43] setup Updater
+[03/Dec/2022 15:59:43] get version from core file
+[03/Dec/2022 15:59:44] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 15:59:44] setup Updater
+[03/Dec/2022 15:59:44] get version from core file
+[03/Dec/2022 16:00:04] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:04:08] setup Updater
+[03/Dec/2022 16:04:08] get version from core file
+[03/Dec/2022 16:04:09] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:04:09] setup Updater
+[03/Dec/2022 16:04:09] get version from core file
+[03/Dec/2022 16:04:18] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:04:49] setup Updater
+[03/Dec/2022 16:04:49] get version from core file
+[03/Dec/2022 16:04:50] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:04:50] setup Updater
+[03/Dec/2022 16:04:50] get version from core file
+[03/Dec/2022 16:05:00] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:05:18] setup Updater
+[03/Dec/2022 16:05:18] get version from core file
+[03/Dec/2022 16:05:19] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:05:19] setup Updater
+[03/Dec/2022 16:05:19] get version from core file
+[03/Dec/2022 16:08:03] setup Updater
+[03/Dec/2022 16:08:03] get version from core file
+[03/Dec/2022 16:08:04] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:08:04] setup Updater
+[03/Dec/2022 16:08:04] get version from core file
+[03/Dec/2022 16:08:08] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:09:54] setup Updater
+[03/Dec/2022 16:09:54] get version from core file
+[03/Dec/2022 16:09:55] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:09:55] setup Updater
+[03/Dec/2022 16:09:55] get version from core file
+[03/Dec/2022 16:10:00] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:10:50] setup Updater
+[03/Dec/2022 16:10:50] get version from core file
+[03/Dec/2022 16:10:51] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:10:51] setup Updater
+[03/Dec/2022 16:10:51] get version from core file
+[03/Dec/2022 16:10:56] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:12:02] setup Updater
+[03/Dec/2022 16:12:02] get version from core file
+[03/Dec/2022 16:12:02] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:12:02] setup Updater
+[03/Dec/2022 16:12:02] get version from core file
+[03/Dec/2022 16:12:07] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:12:51] setup Updater
+[03/Dec/2022 16:12:51] get version from core file
+[03/Dec/2022 16:12:51] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:12:51] setup Updater
+[03/Dec/2022 16:12:51] get version from core file
+[03/Dec/2022 16:13:07] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:13:24] setup Updater
+[03/Dec/2022 16:13:24] get version from core file
+[03/Dec/2022 16:13:25] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:13:25] setup Updater
+[03/Dec/2022 16:13:25] get version from core file
+[03/Dec/2022 16:13:39] compare current version with repo version  vs 1.11.4
+[03/Dec/2022 16:14:03] setup Updater
+[03/Dec/2022 16:14:03] get version from core file
+[03/Dec/2022 16:14:04] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:14:04] setup Updater
+[03/Dec/2022 16:14:04] get version from core file
+[03/Dec/2022 16:14:55] setup Updater
+[03/Dec/2022 16:14:55] get version from core file
+[03/Dec/2022 16:14:56] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:14:56] setup Updater
+[03/Dec/2022 16:14:56] get version from core file
+[03/Dec/2022 16:15:57] setup Updater
+[03/Dec/2022 16:15:57] get version from core file
+[03/Dec/2022 16:15:59] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:15:59] setup Updater
+[03/Dec/2022 16:15:59] get version from core file
+[03/Dec/2022 16:16:36] setup Updater
+[03/Dec/2022 16:16:36] get version from core file
+[03/Dec/2022 16:16:37] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:16:37] setup Updater
+[03/Dec/2022 16:16:37] get version from core file
+[03/Dec/2022 16:17:15] setup Updater
+[03/Dec/2022 16:17:15] get version from core file
+[03/Dec/2022 16:17:16] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:17:16] setup Updater
+[03/Dec/2022 16:17:16] get version from core file
+[03/Dec/2022 16:18:15] setup Updater
+[03/Dec/2022 16:18:15] get version from core file
+[03/Dec/2022 16:18:16] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:18:16] setup Updater
+[03/Dec/2022 16:18:16] get version from core file
+[03/Dec/2022 16:18:59] setup Updater
+[03/Dec/2022 16:18:59] get version from core file
+[03/Dec/2022 16:19:00] compare current version with repo version 1.1.4 vs 1.1.1
+[03/Dec/2022 16:19:00] setup Updater
+[03/Dec/2022 16:19:00] get version from core file
+[07/Dec/2022 22:13:55] setup Updater
+[07/Dec/2022 22:13:55] get version from core file
+[07/Dec/2022 22:13:56] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:13:56] setup Updater
+[07/Dec/2022 22:13:56] get version from core file
+[07/Dec/2022 22:13:57] setup Updater
+[07/Dec/2022 22:13:57] get version from core file
+[07/Dec/2022 22:13:58] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:13:58] setup Updater
+[07/Dec/2022 22:13:58] get version from core file
+[07/Dec/2022 22:17:57] setup Updater
+[07/Dec/2022 22:17:57] get version from core file
+[07/Dec/2022 22:17:57] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:17:57] setup Updater
+[07/Dec/2022 22:17:57] get version from core file
+[07/Dec/2022 22:19:09] setup Updater
+[07/Dec/2022 22:19:09] get version from core file
+[07/Dec/2022 22:19:10] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:19:10] setup Updater
+[07/Dec/2022 22:19:10] get version from core file
+[07/Dec/2022 22:19:36] setup Updater
+[07/Dec/2022 22:19:36] get version from core file
+[07/Dec/2022 22:19:36] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:19:36] setup Updater
+[07/Dec/2022 22:19:36] get version from core file
+[07/Dec/2022 22:20:52] setup Updater
+[07/Dec/2022 22:20:52] get version from core file
+[07/Dec/2022 22:20:53] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:20:53] setup Updater
+[07/Dec/2022 22:20:53] get version from core file
+[07/Dec/2022 22:22:23] setup Updater
+[07/Dec/2022 22:22:23] get version from core file
+[07/Dec/2022 22:22:23] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:22:23] setup Updater
+[07/Dec/2022 22:22:23] get version from core file
+[07/Dec/2022 22:23:25] compare current version with repo version  vs 1.11.4
+[07/Dec/2022 22:27:51] setup Updater
+[07/Dec/2022 22:27:51] get version from core file
+[07/Dec/2022 22:27:52] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:27:52] setup Updater
+[07/Dec/2022 22:27:52] get version from core file
+[07/Dec/2022 22:27:54] compare current version with repo version  vs 1.11.4
+[07/Dec/2022 22:28:19] setup Updater
+[07/Dec/2022 22:28:19] get version from core file
+[07/Dec/2022 22:28:20] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:28:20] setup Updater
+[07/Dec/2022 22:28:20] get version from core file
+[07/Dec/2022 22:28:22] compare current version with repo version  vs 1.11.4
+[07/Dec/2022 22:28:44] setup Updater
+[07/Dec/2022 22:28:44] get version from core file
+[07/Dec/2022 22:28:44] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:28:44] setup Updater
+[07/Dec/2022 22:28:44] get version from core file
+[07/Dec/2022 22:29:46] compare current version with repo version  vs 1.11.4
+[07/Dec/2022 22:32:21] setup Updater
+[07/Dec/2022 22:32:21] get version from core file
+[07/Dec/2022 22:32:22] compare current version with repo version 1.1.4 vs 1.1.1
+[07/Dec/2022 22:32:22] setup Updater
+[07/Dec/2022 22:32:22] get version from core file
+[07/Dec/2022 22:33:23] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 05:26:29] setup Updater
+[08/Dec/2022 05:26:29] get version from core file
+[08/Dec/2022 05:26:31] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 05:26:31] setup Updater
+[08/Dec/2022 05:26:31] get version from core file
+[08/Dec/2022 05:27:32] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 05:31:20] setup Updater
+[08/Dec/2022 05:31:20] get version from core file
+[08/Dec/2022 05:31:21] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 05:31:21] setup Updater
+[08/Dec/2022 05:31:21] get version from core file
+[08/Dec/2022 05:31:23] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 05:32:47] setup Updater
+[08/Dec/2022 05:32:47] get version from core file
+[08/Dec/2022 05:32:48] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 05:32:48] setup Updater
+[08/Dec/2022 05:32:48] get version from core file
+[08/Dec/2022 05:32:50] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 05:33:59] setup Updater
+[08/Dec/2022 05:33:59] get version from core file
+[08/Dec/2022 05:34:00] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 05:34:00] setup Updater
+[08/Dec/2022 05:34:00] get version from core file
+[08/Dec/2022 05:35:02] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 06:24:18] setup Updater
+[08/Dec/2022 06:24:18] get version from core file
+[08/Dec/2022 06:24:20] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:24:20] setup Updater
+[08/Dec/2022 06:24:20] get version from core file
+[08/Dec/2022 06:25:57] setup Updater
+[08/Dec/2022 06:25:57] get version from core file
+[08/Dec/2022 06:25:58] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:25:58] setup Updater
+[08/Dec/2022 06:25:58] get version from core file
+[08/Dec/2022 06:26:37] setup Updater
+[08/Dec/2022 06:26:37] get version from core file
+[08/Dec/2022 06:26:38] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:26:38] setup Updater
+[08/Dec/2022 06:26:38] get version from core file
+[08/Dec/2022 06:28:23] setup Updater
+[08/Dec/2022 06:28:23] get version from core file
+[08/Dec/2022 06:28:24] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:28:24] setup Updater
+[08/Dec/2022 06:28:24] get version from core file
+[08/Dec/2022 06:29:11] setup Updater
+[08/Dec/2022 06:29:11] get version from core file
+[08/Dec/2022 06:29:13] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:29:13] setup Updater
+[08/Dec/2022 06:29:13] get version from core file
+[08/Dec/2022 06:32:30] setup Updater
+[08/Dec/2022 06:32:30] get version from core file
+[08/Dec/2022 06:32:32] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 06:32:32] setup Updater
+[08/Dec/2022 06:32:32] get version from core file
+[08/Dec/2022 06:33:38] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:13:33] setup Updater
+[08/Dec/2022 07:13:33] get version from core file
+[08/Dec/2022 07:13:34] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:13:34] setup Updater
+[08/Dec/2022 07:13:34] get version from core file
+[08/Dec/2022 07:15:06] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:15:24] setup Updater
+[08/Dec/2022 07:15:24] get version from core file
+[08/Dec/2022 07:15:25] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:15:25] setup Updater
+[08/Dec/2022 07:15:25] get version from core file
+[08/Dec/2022 07:16:00] setup Updater
+[08/Dec/2022 07:16:00] get version from core file
+[08/Dec/2022 07:16:00] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:16:00] setup Updater
+[08/Dec/2022 07:16:00] get version from core file
+[08/Dec/2022 07:16:28] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:17:23] setup Updater
+[08/Dec/2022 07:17:23] get version from core file
+[08/Dec/2022 07:17:24] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:17:24] setup Updater
+[08/Dec/2022 07:17:24] get version from core file
+[08/Dec/2022 07:18:29] setup Updater
+[08/Dec/2022 07:18:29] get version from core file
+[08/Dec/2022 07:18:30] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:18:30] setup Updater
+[08/Dec/2022 07:18:30] get version from core file
+[08/Dec/2022 07:18:51] setup Updater
+[08/Dec/2022 07:18:51] get version from core file
+[08/Dec/2022 07:18:52] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:18:52] setup Updater
+[08/Dec/2022 07:18:52] get version from core file
+[08/Dec/2022 07:20:19] setup Updater
+[08/Dec/2022 07:20:19] get version from core file
+[08/Dec/2022 07:20:20] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:20:20] setup Updater
+[08/Dec/2022 07:20:20] get version from core file
+[08/Dec/2022 07:21:21] setup Updater
+[08/Dec/2022 07:21:21] get version from core file
+[08/Dec/2022 07:21:22] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:21:22] setup Updater
+[08/Dec/2022 07:21:22] get version from core file
+[08/Dec/2022 07:22:06] setup Updater
+[08/Dec/2022 07:22:06] get version from core file
+[08/Dec/2022 07:22:07] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:22:07] setup Updater
+[08/Dec/2022 07:22:07] get version from core file
+[08/Dec/2022 07:23:23] setup Updater
+[08/Dec/2022 07:23:23] get version from core file
+[08/Dec/2022 07:23:24] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:23:24] setup Updater
+[08/Dec/2022 07:23:24] get version from core file
+[08/Dec/2022 07:23:58] setup Updater
+[08/Dec/2022 07:23:58] get version from core file
+[08/Dec/2022 07:23:59] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:23:59] setup Updater
+[08/Dec/2022 07:23:59] get version from core file
+[08/Dec/2022 07:24:28] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:24:42] setup Updater
+[08/Dec/2022 07:24:42] get version from core file
+[08/Dec/2022 07:24:43] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:24:43] setup Updater
+[08/Dec/2022 07:24:43] get version from core file
+[08/Dec/2022 07:25:47] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:28:48] setup Updater
+[08/Dec/2022 07:28:48] get version from core file
+[08/Dec/2022 07:28:49] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:28:49] setup Updater
+[08/Dec/2022 07:28:49] get version from core file
+[08/Dec/2022 07:29:18] setup Updater
+[08/Dec/2022 07:29:18] get version from core file
+[08/Dec/2022 07:29:19] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:29:19] setup Updater
+[08/Dec/2022 07:29:19] get version from core file
+[08/Dec/2022 07:29:53] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:29:59] setup Updater
+[08/Dec/2022 07:29:59] get version from core file
+[08/Dec/2022 07:30:00] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:30:00] setup Updater
+[08/Dec/2022 07:30:00] get version from core file
+[08/Dec/2022 07:30:23] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:30:31] setup Updater
+[08/Dec/2022 07:30:31] get version from core file
+[08/Dec/2022 07:30:32] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:30:32] setup Updater
+[08/Dec/2022 07:30:32] get version from core file
+[08/Dec/2022 07:31:03] setup Updater
+[08/Dec/2022 07:31:03] get version from core file
+[08/Dec/2022 07:31:03] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:31:03] setup Updater
+[08/Dec/2022 07:31:03] get version from core file
+[08/Dec/2022 07:31:07] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 07:39:21] setup Updater
+[08/Dec/2022 07:39:21] get version from core file
+[08/Dec/2022 07:39:22] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:39:22] setup Updater
+[08/Dec/2022 07:39:22] get version from core file
+[08/Dec/2022 07:40:00] setup Updater
+[08/Dec/2022 07:40:00] get version from core file
+[08/Dec/2022 07:40:01] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:40:01] setup Updater
+[08/Dec/2022 07:40:01] get version from core file
+[08/Dec/2022 07:41:06] setup Updater
+[08/Dec/2022 07:41:06] get version from core file
+[08/Dec/2022 07:41:07] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:41:07] setup Updater
+[08/Dec/2022 07:41:07] get version from core file
+[08/Dec/2022 07:42:00] setup Updater
+[08/Dec/2022 07:42:00] get version from core file
+[08/Dec/2022 07:42:01] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:42:01] setup Updater
+[08/Dec/2022 07:42:01] get version from core file
+[08/Dec/2022 07:42:40] setup Updater
+[08/Dec/2022 07:42:40] get version from core file
+[08/Dec/2022 07:42:40] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:42:40] setup Updater
+[08/Dec/2022 07:42:40] get version from core file
+[08/Dec/2022 07:43:19] setup Updater
+[08/Dec/2022 07:43:19] get version from core file
+[08/Dec/2022 07:43:19] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:43:19] setup Updater
+[08/Dec/2022 07:43:19] get version from core file
+[08/Dec/2022 07:43:39] setup Updater
+[08/Dec/2022 07:43:39] get version from core file
+[08/Dec/2022 07:43:40] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:43:40] setup Updater
+[08/Dec/2022 07:43:40] get version from core file
+[08/Dec/2022 07:45:18] setup Updater
+[08/Dec/2022 07:45:18] get version from core file
+[08/Dec/2022 07:45:19] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:45:19] setup Updater
+[08/Dec/2022 07:45:19] get version from core file
+[08/Dec/2022 07:46:02] setup Updater
+[08/Dec/2022 07:46:02] get version from core file
+[08/Dec/2022 07:46:03] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:46:03] setup Updater
+[08/Dec/2022 07:46:03] get version from core file
+[08/Dec/2022 07:46:34] setup Updater
+[08/Dec/2022 07:46:34] get version from core file
+[08/Dec/2022 07:46:35] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:46:35] setup Updater
+[08/Dec/2022 07:46:35] get version from core file
+[08/Dec/2022 07:53:27] setup Updater
+[08/Dec/2022 07:53:27] get version from core file
+[08/Dec/2022 07:53:29] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:53:29] setup Updater
+[08/Dec/2022 07:53:29] get version from core file
+[08/Dec/2022 07:55:50] setup Updater
+[08/Dec/2022 07:55:50] get version from core file
+[08/Dec/2022 07:55:52] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:55:52] setup Updater
+[08/Dec/2022 07:55:52] get version from core file
+[08/Dec/2022 07:57:41] setup Updater
+[08/Dec/2022 07:57:41] get version from core file
+[08/Dec/2022 07:57:45] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:57:45] setup Updater
+[08/Dec/2022 07:57:45] get version from core file
+[08/Dec/2022 07:59:07] setup Updater
+[08/Dec/2022 07:59:07] get version from core file
+[08/Dec/2022 07:59:09] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 07:59:09] setup Updater
+[08/Dec/2022 07:59:09] get version from core file
+[08/Dec/2022 08:01:20] setup Updater
+[08/Dec/2022 08:01:20] get version from core file
+[08/Dec/2022 08:01:21] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:01:21] setup Updater
+[08/Dec/2022 08:01:21] get version from core file
+[08/Dec/2022 08:02:17] setup Updater
+[08/Dec/2022 08:02:17] get version from core file
+[08/Dec/2022 08:02:18] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:02:18] setup Updater
+[08/Dec/2022 08:02:18] get version from core file
+[08/Dec/2022 08:03:28] setup Updater
+[08/Dec/2022 08:03:28] get version from core file
+[08/Dec/2022 08:03:28] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:03:28] setup Updater
+[08/Dec/2022 08:03:28] get version from core file
+[08/Dec/2022 08:05:50] setup Updater
+[08/Dec/2022 08:05:50] get version from core file
+[08/Dec/2022 08:05:52] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:05:52] setup Updater
+[08/Dec/2022 08:05:52] get version from core file
+[08/Dec/2022 08:06:26] setup Updater
+[08/Dec/2022 08:06:26] get version from core file
+[08/Dec/2022 08:06:27] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:06:27] setup Updater
+[08/Dec/2022 08:06:27] get version from core file
+[08/Dec/2022 08:07:21] setup Updater
+[08/Dec/2022 08:07:21] get version from core file
+[08/Dec/2022 08:07:22] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:07:22] setup Updater
+[08/Dec/2022 08:07:22] get version from core file
+[08/Dec/2022 08:13:37] setup Updater
+[08/Dec/2022 08:13:37] get version from core file
+[08/Dec/2022 08:13:38] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:13:38] setup Updater
+[08/Dec/2022 08:13:38] get version from core file
+[08/Dec/2022 08:14:39] setup Updater
+[08/Dec/2022 08:14:39] get version from core file
+[08/Dec/2022 08:14:40] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:14:40] setup Updater
+[08/Dec/2022 08:14:40] get version from core file
+[08/Dec/2022 08:17:00] setup Updater
+[08/Dec/2022 08:17:00] get version from core file
+[08/Dec/2022 08:17:01] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 08:17:01] setup Updater
+[08/Dec/2022 08:17:01] get version from core file
+[08/Dec/2022 22:23:39] setup Updater
+[08/Dec/2022 22:23:39] get version from core file
+[08/Dec/2022 22:23:40] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 22:23:40] setup Updater
+[08/Dec/2022 22:23:40] get version from core file
+[08/Dec/2022 22:23:51] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 22:24:15] setup Updater
+[08/Dec/2022 22:24:15] get version from core file
+[08/Dec/2022 22:24:15] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 22:24:15] setup Updater
+[08/Dec/2022 22:24:15] get version from core file
+[08/Dec/2022 22:24:26] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 22:24:47] setup Updater
+[08/Dec/2022 22:24:47] get version from core file
+[08/Dec/2022 22:24:48] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 22:24:48] setup Updater
+[08/Dec/2022 22:24:48] get version from core file
+[08/Dec/2022 23:07:18] setup Updater
+[08/Dec/2022 23:07:18] get version from core file
+[08/Dec/2022 23:07:19] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:07:19] setup Updater
+[08/Dec/2022 23:07:19] get version from core file
+[08/Dec/2022 23:07:48] setup Updater
+[08/Dec/2022 23:07:48] get version from core file
+[08/Dec/2022 23:07:48] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:07:48] setup Updater
+[08/Dec/2022 23:07:48] get version from core file
+[08/Dec/2022 23:08:01] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:09:08] setup Updater
+[08/Dec/2022 23:09:08] get version from core file
+[08/Dec/2022 23:09:08] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:09:08] setup Updater
+[08/Dec/2022 23:09:08] get version from core file
+[08/Dec/2022 23:09:22] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:13:18] setup Updater
+[08/Dec/2022 23:13:18] get version from core file
+[08/Dec/2022 23:13:18] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:13:18] setup Updater
+[08/Dec/2022 23:13:18] get version from core file
+[08/Dec/2022 23:13:31] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:14:32] setup Updater
+[08/Dec/2022 23:14:32] get version from core file
+[08/Dec/2022 23:14:32] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:14:32] setup Updater
+[08/Dec/2022 23:14:32] get version from core file
+[08/Dec/2022 23:14:45] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:15:37] setup Updater
+[08/Dec/2022 23:15:37] get version from core file
+[08/Dec/2022 23:15:38] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:15:38] setup Updater
+[08/Dec/2022 23:15:38] get version from core file
+[08/Dec/2022 23:15:50] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:16:49] setup Updater
+[08/Dec/2022 23:16:49] get version from core file
+[08/Dec/2022 23:16:49] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:16:49] setup Updater
+[08/Dec/2022 23:16:49] get version from core file
+[08/Dec/2022 23:17:03] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:25:15] setup Updater
+[08/Dec/2022 23:25:15] get version from core file
+[08/Dec/2022 23:25:16] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:25:16] setup Updater
+[08/Dec/2022 23:25:16] get version from core file
+[08/Dec/2022 23:25:45] setup Updater
+[08/Dec/2022 23:25:45] get version from core file
+[08/Dec/2022 23:25:45] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:25:45] setup Updater
+[08/Dec/2022 23:25:45] get version from core file
+[08/Dec/2022 23:25:46] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:26:27] setup Updater
+[08/Dec/2022 23:26:27] get version from core file
+[08/Dec/2022 23:26:27] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:26:27] setup Updater
+[08/Dec/2022 23:26:27] get version from core file
+[08/Dec/2022 23:26:28] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:27:12] setup Updater
+[08/Dec/2022 23:27:12] get version from core file
+[08/Dec/2022 23:27:13] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:27:13] setup Updater
+[08/Dec/2022 23:27:13] get version from core file
+[08/Dec/2022 23:27:14] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:28:37] setup Updater
+[08/Dec/2022 23:28:37] get version from core file
+[08/Dec/2022 23:28:37] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:28:37] setup Updater
+[08/Dec/2022 23:28:37] get version from core file
+[08/Dec/2022 23:28:38] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:29:02] setup Updater
+[08/Dec/2022 23:29:02] get version from core file
+[08/Dec/2022 23:29:02] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:29:02] setup Updater
+[08/Dec/2022 23:29:02] get version from core file
+[08/Dec/2022 23:29:03] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:29:44] setup Updater
+[08/Dec/2022 23:29:44] get version from core file
+[08/Dec/2022 23:29:44] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:29:44] setup Updater
+[08/Dec/2022 23:29:44] get version from core file
+[08/Dec/2022 23:29:47] compare current version with repo version  vs 1.11.4
+[08/Dec/2022 23:30:24] setup Updater
+[08/Dec/2022 23:30:24] get version from core file
+[08/Dec/2022 23:30:25] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:30:25] setup Updater
+[08/Dec/2022 23:30:25] get version from core file
+[08/Dec/2022 23:30:30] compare current version with repo version 1.11.4 vs 1.11.4
+[08/Dec/2022 23:31:25] setup Updater
+[08/Dec/2022 23:31:25] get version from core file
+[08/Dec/2022 23:31:25] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:31:25] setup Updater
+[08/Dec/2022 23:31:25] get version from core file
+[08/Dec/2022 23:31:30] compare current version with repo version 1.11.4 vs 1.11.4
+[08/Dec/2022 23:34:04] setup Updater
+[08/Dec/2022 23:34:04] get version from core file
+[08/Dec/2022 23:34:04] compare current version with repo version 1.1.4 vs 1.1.1
+[08/Dec/2022 23:34:04] setup Updater
+[08/Dec/2022 23:34:04] get version from core file
+[08/Dec/2022 23:34:11] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:23:14] setup Updater
+[09/Dec/2022 06:23:14] get version from core file
+[09/Dec/2022 06:23:15] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:23:15] setup Updater
+[09/Dec/2022 06:23:15] get version from core file
+[09/Dec/2022 06:23:25] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:24:47] setup Updater
+[09/Dec/2022 06:24:47] get version from core file
+[09/Dec/2022 06:24:49] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:24:49] setup Updater
+[09/Dec/2022 06:24:49] get version from core file
+[09/Dec/2022 06:24:57] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:25:42] setup Updater
+[09/Dec/2022 06:25:42] get version from core file
+[09/Dec/2022 06:25:43] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:25:43] setup Updater
+[09/Dec/2022 06:25:43] get version from core file
+[09/Dec/2022 06:25:50] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:26:22] setup Updater
+[09/Dec/2022 06:26:22] get version from core file
+[09/Dec/2022 06:26:22] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:26:22] setup Updater
+[09/Dec/2022 06:26:22] get version from core file
+[09/Dec/2022 06:26:30] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:31:22] setup Updater
+[09/Dec/2022 06:31:22] get version from core file
+[09/Dec/2022 06:31:23] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:31:23] setup Updater
+[09/Dec/2022 06:31:23] get version from core file
+[09/Dec/2022 06:31:31] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:32:29] setup Updater
+[09/Dec/2022 06:32:29] get version from core file
+[09/Dec/2022 06:32:30] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:32:30] setup Updater
+[09/Dec/2022 06:32:30] get version from core file
+[09/Dec/2022 06:32:38] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:33:09] setup Updater
+[09/Dec/2022 06:33:09] get version from core file
+[09/Dec/2022 06:33:10] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:33:10] setup Updater
+[09/Dec/2022 06:33:10] get version from core file
+[09/Dec/2022 06:33:19] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 06:42:29] setup Updater
+[09/Dec/2022 06:42:29] get version from core file
+[09/Dec/2022 06:42:31] compare current version with repo version 1.1.4 vs 1.1.1
+[09/Dec/2022 06:42:31] setup Updater
+[09/Dec/2022 06:42:31] get version from core file
+[09/Dec/2022 06:42:40] compare current version with repo version 1.11.4 vs 1.11.4
+[09/Dec/2022 14:24:15] setup Updater
+[09/Dec/2022 14:24:15] get version from core file
+[09/Dec/2022 14:24:15] compare current version with repo version  vs 1.1.1
+[09/Dec/2022 14:24:15] setup Updater
+[09/Dec/2022 14:24:15] get version from core file
+[09/Dec/2022 14:24:15] compare current version with repo version  vs 1.11.4
+[11/Dec/2022 06:19:15] setup Updater
+[11/Dec/2022 06:19:15] get version from core file
+[11/Dec/2022 06:19:17] compare current version with repo version 1.2.1 vs 1.1.4
+[11/Dec/2022 06:19:17] download patch
+[11/Dec/2022 06:19:17] start downloading
+[11/Dec/2022 06:19:21] Complete.
+[11/Dec/2022 06:19:21] setup Updater
+[11/Dec/2022 06:19:21] get version from core file
+[11/Dec/2022 06:19:32] compare current version with repo version 1.11.6 vs 1.11.6
+[11/Dec/2022 06:19:32] File exist.
+[11/Dec/2022 06:25:23] setup Updater
+[11/Dec/2022 06:25:23] get version from core file
+[11/Dec/2022 06:25:25] download patch
+[11/Dec/2022 06:25:25] start downloading
+[11/Dec/2022 06:25:27] Complete.
+[11/Dec/2022 06:25:27] setup Updater
+[11/Dec/2022 06:25:27] get version from core file
+[11/Dec/2022 06:25:37] download patch
+[11/Dec/2022 06:25:37] start downloading
+[11/Dec/2022 06:26:00] Complete.
+[11/Dec/2022 06:26:59] setup Updater
+[11/Dec/2022 06:26:59] get version from core file
+[11/Dec/2022 06:27:01] File exist.
+[11/Dec/2022 06:27:01] setup Updater
+[11/Dec/2022 06:27:01] get version from core file
+[11/Dec/2022 06:27:11] File exist.
+[11/Dec/2022 06:32:14] setup Updater
+[11/Dec/2022 06:32:14] get version from core file
+[11/Dec/2022 06:32:16] File exist.
+[11/Dec/2022 06:32:16] setup Updater
+[11/Dec/2022 06:32:16] get version from core file
+[11/Dec/2022 06:32:25] File exist.
+[11/Dec/2022 06:35:44] setup Updater
+[11/Dec/2022 06:35:44] get version from core file
+[11/Dec/2022 06:35:45] File exist.
+[11/Dec/2022 06:35:45] setup Updater
+[11/Dec/2022 06:35:45] get version from core file
+[11/Dec/2022 06:35:54] File exist.
+[11/Dec/2022 06:36:17] setup Updater
+[11/Dec/2022 06:36:17] get version from core file
+[11/Dec/2022 06:36:19] download patch
+[11/Dec/2022 06:36:19] start downloading
+[11/Dec/2022 06:36:22] Complete.
+[11/Dec/2022 06:36:22] setup Updater
+[11/Dec/2022 06:36:22] get version from core file
+[11/Dec/2022 06:36:31] download patch
+[11/Dec/2022 06:36:31] start downloading
+[11/Dec/2022 06:37:24] Complete.
+[11/Dec/2022 06:38:29] setup Updater
+[11/Dec/2022 06:38:29] get version from core file
+[11/Dec/2022 06:38:30] File exist.
+[11/Dec/2022 06:38:30] setup Updater
+[11/Dec/2022 06:38:30] get version from core file
+[11/Dec/2022 06:38:41] File exist.
+[11/Dec/2022 06:39:22] setup Updater
+[11/Dec/2022 06:39:22] get version from core file
+[11/Dec/2022 06:39:23] File exist.
+[11/Dec/2022 06:39:23] setup Updater
+[11/Dec/2022 06:39:23] get version from core file
+[11/Dec/2022 06:39:36] File exist.
+[11/Dec/2022 06:41:59] setup Updater
+[11/Dec/2022 06:41:59] get version from core file
+[11/Dec/2022 06:42:01] File exist.
+[11/Dec/2022 06:42:01] setup Updater
+[11/Dec/2022 06:42:01] get version from core file
+[11/Dec/2022 06:42:11] File exist.
+[11/Dec/2022 06:42:39] setup Updater
+[11/Dec/2022 06:42:39] get version from core file
+[11/Dec/2022 06:42:40] File exist.
+[11/Dec/2022 06:42:40] setup Updater
+[11/Dec/2022 06:42:40] get version from core file
+[11/Dec/2022 06:42:52] File exist.
+[11/Dec/2022 06:43:09] setup Updater
+[11/Dec/2022 06:43:09] get version from core file
+[11/Dec/2022 06:43:11] download patch
+[11/Dec/2022 06:43:11] start downloading
+[11/Dec/2022 06:43:14] Complete.
+[11/Dec/2022 06:43:14] setup Updater
+[11/Dec/2022 06:43:14] get version from core file
+[11/Dec/2022 06:43:23] download patch
+[11/Dec/2022 06:43:23] start downloading
+[11/Dec/2022 06:43:48] Complete.
+[11/Dec/2022 06:44:14] setup Updater
+[11/Dec/2022 06:44:14] get version from core file
+[11/Dec/2022 06:44:16] File exist.
+[11/Dec/2022 06:44:16] setup Updater
+[11/Dec/2022 06:44:16] get version from core file
+[11/Dec/2022 06:44:26] File exist.
+[11/Dec/2022 06:46:37] setup Updater
+[11/Dec/2022 06:46:37] get version from core file
+[11/Dec/2022 06:46:38] File exist.
+[11/Dec/2022 06:46:38] setup Updater
+[11/Dec/2022 06:46:38] get version from core file
+[11/Dec/2022 06:46:52] File exist.
+[11/Dec/2022 06:47:07] setup Updater
+[11/Dec/2022 06:47:07] get version from core file
+[11/Dec/2022 06:47:09] File exist.
+[11/Dec/2022 06:47:09] setup Updater
+[11/Dec/2022 06:47:09] get version from core file
+[11/Dec/2022 06:47:19] File exist.
+[11/Dec/2022 06:48:23] setup Updater
+[11/Dec/2022 06:48:23] get version from core file
+[11/Dec/2022 06:48:24] download patch
+[11/Dec/2022 06:48:24] start downloading
+[11/Dec/2022 06:48:26] Complete.
+[11/Dec/2022 06:48:26] setup Updater
+[11/Dec/2022 06:48:26] get version from core file
+[11/Dec/2022 06:48:38] download patch
+[11/Dec/2022 06:48:38] start downloading
+[11/Dec/2022 06:51:11] setup Updater
+[11/Dec/2022 06:51:11] get version from core file
+[11/Dec/2022 06:51:13] download patch
+[11/Dec/2022 06:51:13] start downloading
+[11/Dec/2022 06:51:15] Complete.
+[11/Dec/2022 06:51:15] setup Updater
+[11/Dec/2022 06:51:15] get version from core file
+[11/Dec/2022 06:51:25] download patch
+[11/Dec/2022 06:51:25] start downloading
+[11/Dec/2022 06:51:41] Complete.
+[11/Dec/2022 06:52:07] setup Updater
+[11/Dec/2022 06:52:07] get version from core file
+[11/Dec/2022 06:52:08] File exist.
+[11/Dec/2022 06:52:08] setup Updater
+[11/Dec/2022 06:52:08] get version from core file
+[11/Dec/2022 06:52:18] File exist.
+[11/Dec/2022 07:01:43] setup Updater
+[11/Dec/2022 07:01:43] get version from core file
+[11/Dec/2022 07:01:45] download patch
+[11/Dec/2022 07:01:45] start downloading
+[11/Dec/2022 07:01:48] Complete.
+[11/Dec/2022 07:01:48] setup Updater
+[11/Dec/2022 07:01:48] get version from core file
+[11/Dec/2022 07:01:58] File exist.
+[11/Dec/2022 07:03:31] setup Updater
+[11/Dec/2022 07:03:31] get version from core file
+[11/Dec/2022 07:03:32] File exist.
+[11/Dec/2022 07:03:32] setup Updater
+[11/Dec/2022 07:03:32] get version from core file
+[11/Dec/2022 07:03:42] download patch
+[11/Dec/2022 07:03:42] start downloading
+[11/Dec/2022 07:09:47] setup Updater
+[11/Dec/2022 07:09:47] get version from core file
+[11/Dec/2022 07:09:49] File exist.
+[11/Dec/2022 07:09:49] setup Updater
+[11/Dec/2022 07:09:49] get version from core file
+[11/Dec/2022 07:09:58] download patch
+[11/Dec/2022 07:09:58] start downloading
+[11/Dec/2022 07:10:35] Complete.
+[11/Dec/2022 07:17:30] setup Updater
+[11/Dec/2022 07:17:30] setup Updater
+[11/Dec/2022 07:17:30] get version from core file
+[11/Dec/2022 07:17:39] File exist.
+[11/Dec/2022 07:20:59] setup Updater
+[11/Dec/2022 07:20:59] setup Updater
+[11/Dec/2022 07:20:59] get version from core file
+[11/Dec/2022 07:21:07] File exist.
+[11/Dec/2022 07:21:28] setup Updater
+[11/Dec/2022 07:21:28] setup Updater
+[11/Dec/2022 07:21:28] get version from core file
+[11/Dec/2022 07:21:37] download patch
+[11/Dec/2022 07:21:37] start downloading
+[11/Dec/2022 07:22:35] Complete.
+[11/Dec/2022 07:24:03] setup Updater
+[11/Dec/2022 07:24:03] setup Updater
+[11/Dec/2022 07:24:03] get version from core file
+[11/Dec/2022 07:24:14] File exist.
+[11/Dec/2022 13:40:24] setup Updater
+[11/Dec/2022 13:40:24] setup Updater
+[11/Dec/2022 13:40:24] get version from core file
+[11/Dec/2022 13:40:38] setup Updater
+[11/Dec/2022 13:40:38] setup Updater
+[11/Dec/2022 13:40:38] get version from core file
+[11/Dec/2022 13:41:21] setup Updater
+[11/Dec/2022 13:41:21] setup Updater
+[11/Dec/2022 13:41:21] get version from core file
+[11/Dec/2022 13:41:28] File exist.
+[11/Dec/2022 13:45:05] setup Updater
+[11/Dec/2022 13:45:05] setup Updater
+[11/Dec/2022 13:45:05] get version from core file
+[11/Dec/2022 13:45:12] File exist.
+[12/Dec/2022 05:22:33] setup Updater
+[12/Dec/2022 05:23:28] setup Updater
+[12/Dec/2022 05:23:44] setup Updater
+[12/Dec/2022 05:24:40] setup Updater
+[12/Dec/2022 05:25:13] setup Updater
+[12/Dec/2022 05:25:38] setup Updater
+[12/Dec/2022 05:31:30] setup Updater
+[12/Dec/2022 05:33:24] setup Updater
+[12/Dec/2022 05:33:26] setup Updater
+[12/Dec/2022 05:33:26] setup Updater
+[12/Dec/2022 05:34:46] setup Updater
+[12/Dec/2022 05:36:15] setup Updater
+[12/Dec/2022 05:36:16] setup Updater
+[12/Dec/2022 05:36:39] setup Updater
+[12/Dec/2022 05:37:03] setup Updater
+[12/Dec/2022 05:37:53] setup Updater
+[12/Dec/2022 05:40:57] setup Updater
+[12/Dec/2022 05:40:57] get version from core file
+[12/Dec/2022 05:41:47] setup Updater
+[12/Dec/2022 05:41:47] get version from core file
+[12/Dec/2022 05:42:30] setup Updater
+[12/Dec/2022 05:42:30] get version from core file
+[12/Dec/2022 05:43:29] setup Updater
+[12/Dec/2022 05:43:29] get version from core file
+[12/Dec/2022 05:44:00] setup Updater
+[12/Dec/2022 05:44:00] get version from core file
+[12/Dec/2022 05:44:03] download patch
+[12/Dec/2022 05:44:03] start downloading
+[12/Dec/2022 05:45:00] setup Updater
+[12/Dec/2022 05:45:00] get version from core file
+[12/Dec/2022 05:45:04] File exist.
+[12/Dec/2022 05:45:18] setup Updater
+[12/Dec/2022 05:45:18] get version from core file
+[12/Dec/2022 05:45:20] File exist.
+[12/Dec/2022 05:46:01] setup Updater
+[12/Dec/2022 05:46:01] get version from core file
+[12/Dec/2022 05:46:03] File exist.
+[12/Dec/2022 05:46:29] setup Updater
+[12/Dec/2022 05:46:29] get version from core file
+[12/Dec/2022 05:46:32] download patch
+[12/Dec/2022 05:46:32] start downloading
+[12/Dec/2022 05:50:33] setup Updater
+[12/Dec/2022 05:50:33] get version from core file
+[12/Dec/2022 05:50:36] File exist.
+[12/Dec/2022 05:51:30] setup Updater
+[12/Dec/2022 05:51:30] get version from core file
+[12/Dec/2022 05:51:32] File exist.
+[12/Dec/2022 05:52:05] setup Updater
+[12/Dec/2022 05:52:05] get version from core file
+[12/Dec/2022 05:52:10] File exist.
+[12/Dec/2022 05:55:49] setup Updater
+[12/Dec/2022 05:55:49] get version from core file
+[12/Dec/2022 05:55:54] File exist.
+[12/Dec/2022 05:56:37] setup Updater
+[12/Dec/2022 05:56:37] get version from core file
+[12/Dec/2022 05:56:42] download patch
+[12/Dec/2022 05:56:42] start downloading
+[12/Dec/2022 05:57:04] Complete.
+[12/Dec/2022 05:57:39] setup Updater
+[12/Dec/2022 05:57:39] get version from core file
+[12/Dec/2022 05:57:54] File exist.
+[13/Dec/2022 13:11:26] setup Updater
+[13/Dec/2022 13:11:26] get version from core file
+[13/Dec/2022 13:11:32] File exist.
+[14/Dec/2022 04:38:05] setup Updater
+[14/Dec/2022 04:38:05] get version from core file
+[14/Dec/2022 04:38:14] download patch
+[14/Dec/2022 04:38:14] start downloading
+[14/Dec/2022 04:38:24] Complete.
+[15/Dec/2022 12:59:51] setup Updater
+[15/Dec/2022 12:59:51] get version from core file
+[15/Dec/2022 12:59:58] File exist.
+[16/Dec/2022 05:55:25] setup Updater
+[16/Dec/2022 05:55:25] get version from core file
+[16/Dec/2022 05:55:32] File exist.
+[16/Dec/2022 05:55:32] setup Updater
+[16/Dec/2022 05:55:32] get version from core file
+[16/Dec/2022 05:55:39] File exist.
+[16/Dec/2022 05:55:45] setup Updater
+[16/Dec/2022 05:55:45] get version from core file
+[16/Dec/2022 05:55:52] File exist.
+[16/Dec/2022 05:55:52] setup Updater
+[16/Dec/2022 05:55:52] get version from core file
+[16/Dec/2022 05:55:58] File exist.
+[16/Dec/2022 05:56:16] setup Updater
+[16/Dec/2022 05:56:16] get version from core file
+[16/Dec/2022 05:56:20] setup Updater
+[16/Dec/2022 05:56:20] get version from core file
+[16/Dec/2022 05:56:22] File exist.
+[16/Dec/2022 05:56:26] File exist.
+[16/Dec/2022 05:56:27] setup Updater
+[16/Dec/2022 05:56:27] get version from core file
+[16/Dec/2022 05:56:33] File exist.
+[16/Dec/2022 05:56:50] setup Updater
+[16/Dec/2022 05:56:50] get version from core file
+[16/Dec/2022 05:56:56] File exist.
+[16/Dec/2022 05:56:56] setup Updater
+[16/Dec/2022 05:56:56] get version from core file
+[16/Dec/2022 05:57:02] File exist.
+[16/Dec/2022 05:57:10] setup Updater
+[16/Dec/2022 05:57:10] get version from core file
+[16/Dec/2022 05:57:16] File exist.
+[16/Dec/2022 05:57:28] setup Updater
+[16/Dec/2022 05:57:28] get version from core file
+[16/Dec/2022 05:57:30] setup Updater
+[16/Dec/2022 05:57:30] get version from core file
+[16/Dec/2022 05:57:33] File exist.
+[16/Dec/2022 05:57:37] File exist.
+[16/Dec/2022 05:57:38] setup Updater
+[16/Dec/2022 05:57:38] get version from core file
+[16/Dec/2022 05:57:45] File exist.
