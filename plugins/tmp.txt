@@ -1297,3 +1297,9 @@
 [16/Dec/2022 05:57:38] setup Updater
 [16/Dec/2022 05:57:38] get version from core file
 [16/Dec/2022 05:57:45] File exist.
+[19/Dec/2022 06:02:12] setup Updater
+[19/Dec/2022 06:02:12] get version from core file
+[19/Dec/2022 06:02:18] File exist.
+[19/Dec/2022 14:29:14] setup Updater
+[19/Dec/2022 14:29:14] get version from core file
+[19/Dec/2022 14:29:21] File exist.

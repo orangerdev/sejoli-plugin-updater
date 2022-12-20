@@ -60,8 +60,8 @@ class Update {
         $this->branch      = $branch;
         $this->core_file   = $core_file;
         $this->plugin_file = $plugin_file;
-        $this->username    = "asdzakky";
-    	$this->password    = "ATBBJFSMyE8WgzySZVckeDSeVtVD265B1E41";
+    	$this->username    = get_option('_sejoli_crb_repo_bitbucket_username');
+    	$this->password    = get_option('_sejoli_crb_repo_bitbucket_app_password');
 
 	}
 
