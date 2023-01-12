@@ -37,6 +37,11 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'SEJOLI_PLUGIN_UPDATER_VERSION', '1.0.0' );
 
+// Set up directory to save plugins file
+$upload_dir = wp_upload_dir();
+define( 'SEJOLI_PLUGIN_FILE_DIR', $upload_dir['basedir'] . '/sejoli-plugins');
+define( 'SEJOLI_PLUGIN_FILE_URL', $upload_dir['baseurl'] . '/sejoli-plugins');
+
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-sejoli-plugin-updater-activator.php

@@ -1297,3 +1297,285 @@
 [16/Dec/2022 05:57:38] setup Updater
 [16/Dec/2022 05:57:38] get version from core file
 [16/Dec/2022 05:57:45] File exist.
+[19/Dec/2022 06:02:12] setup Updater
+[19/Dec/2022 06:02:12] get version from core file
+[19/Dec/2022 06:02:18] File exist.
+[19/Dec/2022 14:29:14] setup Updater
+[19/Dec/2022 14:29:14] get version from core file
+[19/Dec/2022 14:29:21] File exist.
+[23/Dec/2022 02:42:49] setup Updater
+[23/Dec/2022 02:42:49] get version from core file
+[23/Dec/2022 02:42:54] File exist.
+[23/Dec/2022 14:39:36] setup Updater
+[23/Dec/2022 14:39:36] get version from core file
+[23/Dec/2022 14:39:41] File exist.
+[26/Dec/2022 02:10:26] setup Updater
+[26/Dec/2022 02:10:26] get version from core file
+[26/Dec/2022 02:10:32] File exist.
+[28/Dec/2022 01:36:10] setup Updater
+[28/Dec/2022 01:36:10] get version from core file
+[28/Dec/2022 01:36:16] File exist.
+[02/Jan/2023 03:02:20] setup Updater
+[02/Jan/2023 03:02:20] get version from core file
+[02/Jan/2023 03:02:25] File exist.
+[02/Jan/2023 07:25:44] setup Updater
+[02/Jan/2023 07:25:44] get version from core file
+[02/Jan/2023 07:25:51] download patch
+[02/Jan/2023 07:25:51] start downloading
+[02/Jan/2023 07:26:00] Complete.
+[02/Jan/2023 07:29:48] setup Updater
+[02/Jan/2023 07:29:48] get version from core file
+[02/Jan/2023 07:29:55] download patch
+[02/Jan/2023 07:29:55] start downloading
+[02/Jan/2023 07:30:04] Complete.
+[02/Jan/2023 07:31:31] setup Updater
+[02/Jan/2023 07:31:31] get version from core file
+[02/Jan/2023 07:31:40] download patch
+[02/Jan/2023 07:31:40] start downloading
+[02/Jan/2023 07:31:47] Complete.
+[02/Jan/2023 07:33:12] setup Updater
+[02/Jan/2023 07:33:12] get version from core file
+[02/Jan/2023 07:33:21] download patch
+[02/Jan/2023 07:33:21] start downloading
+[02/Jan/2023 07:33:27] Complete.
+[02/Jan/2023 07:55:07] setup Updater
+[02/Jan/2023 07:55:53] setup Updater
+[02/Jan/2023 07:56:19] setup Updater
+[02/Jan/2023 07:57:01] setup Updater
+[02/Jan/2023 07:59:14] setup Updater
+[02/Jan/2023 07:59:16] download patch
+[02/Jan/2023 07:59:16] start downloading
+[02/Jan/2023 07:59:23] Complete.
+[04/Jan/2023 03:20:02] setup Updater
+[04/Jan/2023 03:20:04] File exist.
+[09/Jan/2023 03:57:52] setup Updater
+[09/Jan/2023 03:57:54] File exist.
+[09/Jan/2023 04:10:50] setup Updater
+[09/Jan/2023 04:10:52] download patch
+[09/Jan/2023 04:10:52] start downloading
+[09/Jan/2023 04:16:18] setup Updater
+[09/Jan/2023 04:16:20] download patch
+[09/Jan/2023 04:16:20] start downloading
+[09/Jan/2023 04:20:59] setup Updater
+[09/Jan/2023 04:21:01] download patch
+[09/Jan/2023 04:21:01] start downloading
+[09/Jan/2023 04:22:46] setup Updater
+[09/Jan/2023 04:22:48] download patch
+[09/Jan/2023 04:22:48] start downloading
+[09/Jan/2023 04:27:56] setup Updater
+[09/Jan/2023 04:27:59] download patch
+[09/Jan/2023 04:27:59] start downloading
+[09/Jan/2023 04:33:45] setup Updater
+[09/Jan/2023 04:33:48] download patch
+[09/Jan/2023 04:33:48] start downloading
+[09/Jan/2023 04:34:54] setup Updater
+[09/Jan/2023 04:34:57] download patch
+[09/Jan/2023 04:34:57] start downloading
+[09/Jan/2023 04:40:53] setup Updater
+[09/Jan/2023 04:40:55] download patch
+[09/Jan/2023 04:40:55] start downloading
+[09/Jan/2023 04:42:02] setup Updater
+[09/Jan/2023 04:42:04] download patch
+[09/Jan/2023 04:42:04] start downloading
+[09/Jan/2023 04:44:51] setup Updater
+[09/Jan/2023 04:44:54] download patch
+[09/Jan/2023 04:44:54] start downloading
+[09/Jan/2023 04:48:32] setup Updater
+[09/Jan/2023 04:48:35] download patch
+[09/Jan/2023 04:48:35] start downloading
+[09/Jan/2023 06:03:08] setup Updater
+[09/Jan/2023 06:03:10] download patch
+[09/Jan/2023 06:03:10] start downloading
+[09/Jan/2023 06:11:44] setup Updater
+[09/Jan/2023 06:11:46] download patch
+[09/Jan/2023 06:11:46] start downloading
+[09/Jan/2023 06:13:24] setup Updater
+[09/Jan/2023 06:13:26] download patch
+[09/Jan/2023 06:13:26] start downloading
+[09/Jan/2023 06:14:26] setup Updater
+[09/Jan/2023 06:14:28] download patch
+[09/Jan/2023 06:14:28] start downloading
+[09/Jan/2023 06:15:18] setup Updater
+[09/Jan/2023 06:15:19] download patch
+[09/Jan/2023 06:15:19] start downloading
+[09/Jan/2023 06:17:27] setup Updater
+[09/Jan/2023 06:17:28] download patch
+[09/Jan/2023 06:17:28] start downloading
+[09/Jan/2023 06:18:55] setup Updater
+[09/Jan/2023 06:18:57] download patch
+[09/Jan/2023 06:18:57] start downloading
+[09/Jan/2023 06:19:51] setup Updater
+[09/Jan/2023 06:19:52] download patch
+[09/Jan/2023 06:19:52] start downloading
+[09/Jan/2023 06:23:27] setup Updater
+[09/Jan/2023 06:23:29] download patch
+[09/Jan/2023 06:23:29] start downloading
+[09/Jan/2023 06:26:16] setup Updater
+[09/Jan/2023 06:26:18] download patch
+[09/Jan/2023 06:26:18] start downloading
+[09/Jan/2023 06:36:24] setup Updater
+[09/Jan/2023 06:36:26] File exist.
+[09/Jan/2023 06:36:48] setup Updater
+[09/Jan/2023 06:36:50] download patch
+[09/Jan/2023 06:36:50] start downloading
+[09/Jan/2023 06:37:47] setup Updater
+[09/Jan/2023 06:37:48] download patch
+[09/Jan/2023 06:37:48] start downloading
+[09/Jan/2023 06:40:09] setup Updater
+[09/Jan/2023 06:40:11] download patch
+[09/Jan/2023 06:40:11] start downloading
+[09/Jan/2023 06:41:59] setup Updater
+[09/Jan/2023 06:42:01] download patch
+[09/Jan/2023 06:42:01] start downloading
+[09/Jan/2023 06:48:53] setup Updater
+[09/Jan/2023 06:48:55] File exist.
+[09/Jan/2023 06:55:06] setup Updater
+[09/Jan/2023 06:55:07] download patch
+[09/Jan/2023 06:55:07] start downloading
+[09/Jan/2023 06:56:00] setup Updater
+[09/Jan/2023 06:56:01] download patch
+[09/Jan/2023 06:56:01] start downloading
+[09/Jan/2023 06:57:29] setup Updater
+[09/Jan/2023 06:57:31] download patch
+[09/Jan/2023 06:57:31] start downloading
+[09/Jan/2023 06:57:56] setup Updater
+[09/Jan/2023 06:57:58] File exist.
+[09/Jan/2023 06:58:40] setup Updater
+[09/Jan/2023 06:58:42] File exist.
+[09/Jan/2023 06:58:57] setup Updater
+[09/Jan/2023 06:58:59] File exist.
+[09/Jan/2023 06:59:17] setup Updater
+[09/Jan/2023 06:59:19] File exist.
+[09/Jan/2023 06:59:53] setup Updater
+[09/Jan/2023 06:59:55] File exist.
+[09/Jan/2023 07:00:07] setup Updater
+[09/Jan/2023 07:00:09] download patch
+[09/Jan/2023 07:00:09] start downloading
+[09/Jan/2023 07:00:38] setup Updater
+[09/Jan/2023 07:00:39] download patch
+[09/Jan/2023 07:00:39] start downloading
+[09/Jan/2023 07:01:21] setup Updater
+[09/Jan/2023 07:01:22] download patch
+[09/Jan/2023 07:01:22] start downloading
+[09/Jan/2023 07:01:47] setup Updater
+[09/Jan/2023 07:01:49] download patch
+[09/Jan/2023 07:01:49] start downloading
+[09/Jan/2023 07:13:06] setup Updater
+[09/Jan/2023 07:13:06] get version from core file
+[09/Jan/2023 07:13:06] download patch
+[09/Jan/2023 07:13:06] start downloading
+[09/Jan/2023 07:17:08] setup Updater
+[09/Jan/2023 07:17:08] get version from core file
+[09/Jan/2023 07:17:08] download patch
+[09/Jan/2023 07:17:08] start downloading
+[09/Jan/2023 07:19:23] setup Updater
+[09/Jan/2023 07:19:23] get version from core file
+[09/Jan/2023 07:19:23] download patch
+[09/Jan/2023 07:19:23] start downloading
+[09/Jan/2023 07:21:21] setup Updater
+[09/Jan/2023 07:21:21] get version from core file
+[09/Jan/2023 07:21:22] download patch
+[09/Jan/2023 07:21:22] start downloading
+[09/Jan/2023 07:22:17] setup Updater
+[09/Jan/2023 07:22:17] get version from core file
+[09/Jan/2023 07:22:18] download patch
+[09/Jan/2023 07:22:18] start downloading
+[09/Jan/2023 07:23:23] setup Updater
+[09/Jan/2023 07:23:23] get version from core file
+[09/Jan/2023 07:23:23] download patch
+[09/Jan/2023 07:23:23] start downloading
+[09/Jan/2023 07:24:16] setup Updater
+[09/Jan/2023 07:24:16] get version from core file
+[09/Jan/2023 07:24:16] download patch
+[09/Jan/2023 07:24:16] start downloading
+[09/Jan/2023 07:27:45] setup Updater
+[09/Jan/2023 07:27:45] get version from core file
+[09/Jan/2023 07:27:45] download patch
+[09/Jan/2023 07:27:45] start downloading
+[09/Jan/2023 07:28:26] setup Updater
+[09/Jan/2023 07:28:26] get version from core file
+[09/Jan/2023 07:28:26] download patch
+[09/Jan/2023 07:28:26] start downloading
+[09/Jan/2023 07:28:28] Complete.
+[09/Jan/2023 08:18:51] setup Updater
+[09/Jan/2023 08:18:51] get version from core file
+[09/Jan/2023 08:18:51] File exist.
+[09/Jan/2023 15:19:03] setup Updater
+[09/Jan/2023 15:20:06] setup Updater
+[09/Jan/2023 15:20:08] download patch
+[09/Jan/2023 15:20:08] start downloading
+[09/Jan/2023 15:20:12] Complete.
+[09/Jan/2023 15:21:57] setup Updater
+[09/Jan/2023 15:21:59] download patch
+[09/Jan/2023 15:21:59] start downloading
+[09/Jan/2023 15:22:03] Complete.
+[09/Jan/2023 15:22:42] setup Updater
+[09/Jan/2023 15:22:44] download patch
+[09/Jan/2023 15:22:44] start downloading
+[09/Jan/2023 15:22:47] Complete.
+[09/Jan/2023 15:23:17] setup Updater
+[09/Jan/2023 15:23:19] download patch
+[09/Jan/2023 15:23:19] start downloading
+[09/Jan/2023 15:23:23] Complete.
+[09/Jan/2023 15:24:35] setup Updater
+[09/Jan/2023 15:24:37] download patch
+[09/Jan/2023 15:24:37] start downloading
+[09/Jan/2023 15:24:40] Complete.
+[09/Jan/2023 15:25:35] setup Updater
+[09/Jan/2023 15:25:37] download patch
+[09/Jan/2023 15:25:37] start downloading
+[09/Jan/2023 15:25:52] Complete.
+[09/Jan/2023 15:26:55] setup Updater
+[09/Jan/2023 15:26:56] download patch
+[09/Jan/2023 15:26:56] start downloading
+[09/Jan/2023 15:27:14] Complete.
+[09/Jan/2023 15:36:57] setup Updater
+[09/Jan/2023 15:36:59] File exist.
+[09/Jan/2023 15:37:33] setup Updater
+[09/Jan/2023 15:37:35] File exist.
+[09/Jan/2023 15:43:33] setup Updater
+[09/Jan/2023 15:43:35] File exist.
+[09/Jan/2023 15:46:28] setup Updater
+[09/Jan/2023 15:46:30] File exist.
+[09/Jan/2023 15:47:26] setup Updater
+[09/Jan/2023 15:47:28] File exist.
+[09/Jan/2023 15:52:16] setup Updater
+[09/Jan/2023 15:52:16] get version from core file
+[09/Jan/2023 15:52:17] download patch
+[09/Jan/2023 15:52:17] start downloading
+[09/Jan/2023 15:52:19] Complete.
+[09/Jan/2023 15:52:19] setup Updater
+[09/Jan/2023 15:52:21] download patch
+[09/Jan/2023 15:52:21] start downloading
+[09/Jan/2023 15:52:34] Complete.
+[09/Jan/2023 15:56:02] setup Updater
+[09/Jan/2023 15:56:02] get version from core file
+[09/Jan/2023 15:56:03] download patch
+[09/Jan/2023 15:56:03] start downloading
+[09/Jan/2023 15:56:05] Complete.
+[09/Jan/2023 15:56:05] setup Updater
+[09/Jan/2023 15:56:06] download patch
+[09/Jan/2023 15:56:06] start downloading
+[09/Jan/2023 15:56:17] Complete.
+[11/Jan/2023 03:57:49] setup Updater
+[11/Jan/2023 03:57:49] get version from core file
+[11/Jan/2023 03:57:56] File exist.
+[11/Jan/2023 03:57:56] setup Updater
+[11/Jan/2023 08:58:15] setup Updater
+[11/Jan/2023 08:58:15] get version from core file
+[11/Jan/2023 08:58:17] download patch
+[11/Jan/2023 08:58:17] start downloading
+[11/Jan/2023 08:58:20] Complete.
+[11/Jan/2023 08:58:20] setup Updater
+[11/Jan/2023 08:58:23] download patch
+[11/Jan/2023 08:58:23] start downloading
+[11/Jan/2023 08:58:33] Complete.
+[11/Jan/2023 09:01:55] setup Updater
+[11/Jan/2023 09:01:55] get version from core file
+[11/Jan/2023 09:01:55] download patch
+[11/Jan/2023 09:01:55] start downloading
+[11/Jan/2023 09:02:03] Complete.
+[11/Jan/2023 09:02:03] setup Updater
+[11/Jan/2023 09:02:06] download patch
+[11/Jan/2023 09:02:06] start downloading
+[11/Jan/2023 09:02:15] Complete.

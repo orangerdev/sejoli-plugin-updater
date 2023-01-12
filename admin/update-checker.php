@@ -27,16 +27,18 @@ use Carbon_Fields\Field;
  */
 class Update_Checker {
 
-	private $repo_url     = "";
-    private $repo_name    = "";
-    private $user_name    = "";
-    private $base_url     = "https://api.github.com/repos/_user_/_repo_/branches";
-    private $access_token = "";
-    private $branch       = "";
-    private $core_file    = "";
-    private $plugin_repo  = "";
-    private $username     = "";
-    private $password     = "";
+	private $repo_url      = "";
+	private $product_repo  = "";
+	private $repo_cat_name = "";
+    private $repo_name     = "";
+    private $user_name     = "";
+    private $base_url      = "https://api.github.com/repos/_user_/_repo_/branches";
+    private $access_token  = "";
+    private $branch        = "";
+    private $core_file     = "";
+    private $plugin_repo   = "";
+    private $username      = "";
+    private $password      = "";
 
 	/**
 	 * Initialize the class and set its properties.
@@ -47,171 +49,242 @@ class Update_Checker {
 	 */
 	public function __construct() {
 
-		$this->writeLog("setup Updater");
-        $this->repo_url     = get_option('_sejoli_crb_repo_url');
-        $this->access_token = "";
-        $this->branch       = get_option('_sejoli_crb_repo_branch');
-        $this->core_file    = get_option('_sejoli_crb_core_file');
-        $this->username     = get_option('_sejoli_crb_repo_bitbucket_username');
-    	$this->password     = get_option('_sejoli_crb_repo_bitbucket_app_password');
-    	$this->plugin_repo  = get_option('_sejoli_crb_repo_type');
+		$posts = new \WP_Query(array(
+	        'post_type'              => 'sejoli-product-repo',
+	        'posts_per_page'         => -1,
+	        'no_found_rows'          => true,
+	        'update_post_meta_cache' => false,
+	        'update_post_term_cache' => false
+	    ));
 
-    	$repo_url     = $this->repo_url;
-    	$core_file    = $this->core_file;
-        $plugin_repo  = $this->plugin_repo;
-        $repo_version = '';
+	    while ( $posts->have_posts() ) : $posts->the_post();
 
-        // TODO - check on this line is github or bitbucket       
-        if ( preg_match("/\bgithub\b/i", $repo_url, $match) ) {
+	    	$this->product_repo  = get_the_ID();
+		    $this->repo_cat_name = get_post_meta( get_the_ID(), '_sejoli_crb_repo_name', true );
+		    $this->repo_url      = get_post_meta( get_the_ID(), '_sejoli_crb_repo_url', true );
+		    $this->branch        = get_post_meta( get_the_ID(), '_sejoli_crb_repo_branch', true );
+		    $this->core_file     = get_post_meta( get_the_ID(), '_sejoli_crb_core_file', true );
+		    $this->plugin_repo   = get_post_meta( get_the_ID(), '_sejoli_crb_repo_type', true );
+		    $this->username      = get_post_meta( get_the_ID(), '_sejoli_crb_repo_bitbucket_username', true );
+		    $this->password      = get_post_meta( get_the_ID(), '_sejoli_crb_repo_bitbucket_app_password', true );
+		    
+			$this->writeLog("setup Updater");
 
-        	if( $plugin_repo === 'github' ) {
+	    	$repo_url     = $this->repo_url;
+	    	$core_file    = $this->core_file;
+	        $plugin_repo  = $this->plugin_repo;
+	        $repo_version = '';
 
-	            $repos_url = preg_split('/\//', $repo_url);
+	        // TODO - check on this line is github or bitbucket       
+	        if ( preg_match("/\bgithub\b/i", $repo_url, $match) ) {
 
-	            $this->repo_name = $repos_url[4];
-	            $this->user_name = $repos_url[3];
-	            $this->base_url  = preg_replace('/_repo_/', $this->repo_name, $this->base_url);
-	            $this->base_url  = preg_replace('/_user_/', $this->user_name, $this->base_url);
+	        	if( $plugin_repo === 'github' ) {
 
-	            // get repo version
-	            $this->writeLog("get version from core file");
-	            $readCoreFile = isset(preg_split('/Version:\ /', $this->readCoreFile())[1]) ? preg_split('/Version:\ /', $this->readCoreFile())[1] : null;
-	            $contents     = $readCoreFile;
-	            $repo_version = trim(preg_split('/\n/', $contents)[0]);
+		            $repos_url = preg_split('/\//', $repo_url);
+
+		            $this->repo_name = $repos_url[4];
+		            $this->user_name = $repos_url[3];
+		            $this->base_url  = preg_replace('/_repo_/', $this->repo_name, $this->base_url);
+		            $this->base_url  = preg_replace('/_user_/', $this->user_name, $this->base_url);
+
+		            // get repo version
+		            $this->writeLog("get version from core file");
+		            $readCoreFile = isset(preg_split('/Version:\ /', $this->readCoreFile())[1]) ? preg_split('/Version:\ /', $this->readCoreFile())[1] : null;
+		            $contents     = $readCoreFile;
+		            $repo_version = trim(preg_split('/\n/', $contents)[0]);
+
+		        }
+
+	        } else {
+
+	        	if( $plugin_repo === 'bitbucket' ) {
+
+	        		$repos_url = preg_split('/\//', $repo_url);
+
+		            $this->repo_name = $repos_url[4];
+		            $this->user_name = $repos_url[3];
+
+	        		$repo_version = $this->getRepoBitbucketReleaseInfo()->name;
+		        
+		        }
 
 	        }
 
-        } else {
+	        $repo_file    = $this->core_file."-".$repo_version.".zip";
+	        $fileDir      = SEJOLI_PLUGIN_FILE_DIR . '/'; 
+			$current_file = array_diff(scandir($fileDir), array('.', '..')); 
 
-        	if( $plugin_repo === 'bitbucket' ) {
+	        // if( !file_exists(plugin_dir_path( __FILE__ ) . "../plugins/tmp/" . $this->core_file."-".$current_version.".zip") ) {
+	        // if( $repo_version !== $current_version ) {
+			  
+			if( 0 < count(array_intersect(array_map('strtolower', explode(' ', $repo_file)), $current_file)) ) {
 
-	            $repos_url = preg_split('/\//', $repo_url);
+	            $this->writeLog("File exist.");
 
-	            $this->repo_name = $repos_url[4];
-	            $this->user_name = $repos_url[3];
-	            $this->base_url  = "https://bitbucket.org/" . $this->user_name . "/" . $this->repo_name . "/raw/master/" . $core_file . ".php";
+	        } else {
+	            
+	            if ( preg_match("/\bbitbucket\b/i", $this->repo_url, $match) ) {
 
-	            // get repo version
-	            $this->writeLog("get version from core file");
-	            $readCoreFile = isset(preg_split('/Version:\ /', $this->readCoreFile())[1]) ? preg_split('/Version:\ /', $this->readCoreFile())[1] : null;
-	            $contents     = $readCoreFile;
-	            $repo_version = trim(preg_split('/\n/', $contents)[0]);
-	        
-	        }
+	            	if( $plugin_repo === 'bitbucket' ) {
 
-        }
+	            		if( empty( $repo_version ) ) {
 
-        $repo_file    = $this->core_file."-".$repo_version.".zip";
-        $fileDir      = plugin_dir_path( __FILE__ ) . "../plugins/tmp/"; 
-		$current_file = array_diff(scandir($fileDir), array('.', '..')); 
+	            			return false;
 
-        // if( !file_exists(plugin_dir_path( __FILE__ ) . "../plugins/tmp/" . $this->core_file."-".$current_version.".zip") ) {
-        // if( $repo_version !== $current_version ) {
-		  
-		if(0 < count(array_intersect(array_map('strtolower', explode(' ', $repo_file)), $current_file))) {
+	            		}
 
-            $this->writeLog("File exist.");
+	            		$branch      = preg_replace('/\//', '', $this->branch);
+			            $filename    = $this->core_file."-".$repo_version.".zip";
+			            $file_name   = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
+			            $plugin_repo = $this->plugin_repo;
 
-        } else {
+			            $this->writeLog("download patch");
+			            $this->writeLog("start downloading");
 
-            $branch      = preg_replace('/\//', '', $this->branch);
-            $file_name   = plugin_dir_path( __FILE__ ) . "../plugins/tmp/" . $this->core_file."-".$repo_version.".zip";
-            $plugin_repo = $this->plugin_repo;
-            
-            if ( preg_match("/\bbitbucket\b/i", $this->repo_url, $match) ) {
+		                $url         = $repo_url . "/get/".$branch.".zip";
+		                $destination = $file_name;
+		                $file_data   = $this->file_get_contents_curl( $url, $destination );
 
-            	if( $plugin_repo === 'bitbucket' ) {
+		                $handle = fopen( $file_name, 'w' );
+		                fclose( $handle );
 
-		            $this->writeLog("download patch");
-		            $this->writeLog("start downloading");
+		                if ( wp_mkdir_p( SEJOLI_PLUGIN_FILE_DIR ) ) {
 
-	                $url         = $repo_url . "/get/".$branch.".zip";
-	                $destination = $file_name;
-	                $file_data   = $this->file_get_contents_curl( $url, $destination );
-	                 
-	                $handle = fopen( $file_name, 'w' );
-	                fclose( $handle );
+				            $file = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
 
-	                // Save Content to file
-	                $downloaded = file_put_contents( $file_name, $file_data );
+				        } else {
 
-	                if( $downloaded > 0 ) {
+				            $file = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
 
-	                	$plugin_name      = $this->core_file." v.".$repo_version;
-		                $plugin_changelog = $this->getChangelogFile();
-		                $plugin_version   = $repo_version;
-		                $plugin_category  = get_option('_sejoli_crb_repo_name');
+				        }
 
-		                $saving_plugin_info = wp_insert_post(array (
-						   'post_type'      => 'sejoli-file-updater',
-						   'post_title'     => $plugin_name,
-						   'post_content'   => $plugin_changelog,
-						   'post_status'    => 'publish',
-						   'comment_status' => 'closed',
-						   'ping_status'    => 'closed',
-						));
+		                // Save Content to file
+		                $downloaded = file_put_contents( $file, $file_data );
 
-						if ( $saving_plugin_info ) {
+		                if( $downloaded > 0 ) {
 
-						   // insert post meta
-						   add_post_meta($saving_plugin_info, '_sejoli_crb_repo_version', $plugin_version);
-						   add_post_meta($saving_plugin_info, '_sejoli_crb_repo_category', $plugin_category);
+		                	$plugin_name      = $this->core_file." v.".$repo_version;
+			                $plugin_changelog = $this->getChangelogFile();
+			                $plugin_version   = $repo_version;
+			                $plugin_category  = $this->product_repo;
 
-						}
+			                $saving_plugin_info = wp_insert_post(array (
+							   'post_type'      => 'sejoli-file-updater',
+							   'post_title'     => $plugin_name,
+							   'post_content'   => $plugin_changelog,
+							   'post_status'    => 'publish',
+							   'comment_status' => 'closed',
+							   'ping_status'    => 'closed',
+							));
 
-	                    $this->writeLog("Complete.");
+							if ( $saving_plugin_info ) {
 
-	                }
+								// insert post meta
+							   	add_post_meta( $saving_plugin_info, '_sejoli_crb_repo_version', $plugin_version );
+							   	add_post_meta( $saving_plugin_info, '_sejoli_crb_repo_category', $plugin_category );
 
-            	}
+						        $wp_filetype = wp_check_filetype( $filename, null );
+						        $attachment = array(
+						            'guid'           => SEJOLI_PLUGIN_FILE_URL . '/' . $filename,
+						            'post_mime_type' => $wp_filetype['type'],
+						            'post_title'     => sanitize_file_name($filename),
+						            'post_content'   => '',
+						            'post_status'    => 'inherit',
+						        );
 
-            } else {
+						        $attach_id = wp_insert_attachment( $attachment, $file, $saving_plugin_info );
+						        require_once(ABSPATH . 'wp-admin/includes/file.php');
+						        // $attach_data = wp_generate_attachment_metadata( $attach_id, $file );
+						        // wp_update_attachment_metadata( $attach_id, $attach_data );
 
-            	if( $plugin_repo === 'github' ) {
+							}
 
-		            $this->writeLog("download patch");
-		            $this->writeLog("start downloading");
+		                    $this->writeLog("Complete.");
 
-	                $file_data = file_get_contents( $repo_url . "/archive/".$this->branch.".zip?access_token=".$this->access_token );
-	                $handle    = fopen( $file_name, 'w' );
-	                fclose( $handle );
+		                }
 
-	                // Save Content to file
-	                $downloaded = file_put_contents( $file_name, $file_data );
+	            	}
 
-	                if( $downloaded > 0 ) {
+	            } else {
 
-	                	$plugin_name      = $this->core_file." v.".$repo_version;
-		                $plugin_changelog = $this->getChangelogFile();
-		                $plugin_version   = $repo_version;
-		                $plugin_category  = carbon_get_theme_option('sejoli_crb_repo_name');
+	            	if( $plugin_repo === 'github' ) {
 
-		                $saving_plugin_info = wp_insert_post(array (
-						   'post_type'      => 'sejoli-file-updater',
-						   'post_title'     => $plugin_name,
-						   'post_content'   => $plugin_changelog,
-						   'post_status'    => 'publish',
-						   'comment_status' => 'closed',
-						   'ping_status'    => 'closed',
-						));
+	            		$branch      = preg_replace('/\//', '', $this->branch);
+			            $filename    = $this->core_file."-".$repo_version.".zip";
+			            $file_name   = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
+			            $plugin_repo = $this->plugin_repo;
 
-						if ( $saving_plugin_info ) {
+			            $this->writeLog("download patch");
+			            $this->writeLog("start downloading");
 
-						   // insert post meta
-						   add_post_meta($saving_plugin_info, '_sejoli_crb_repo_version', $plugin_version);
-						   add_post_meta($saving_plugin_info, '_sejoli_crb_repo_category', $plugin_category);
+		                $file_data = file_get_contents( $repo_url . "/archive/".$this->branch.".zip?access_token=".$this->access_token );
+		                $handle    = fopen( $file_name, 'w' );
+		                fclose( $handle );
 
-						}
+		                if ( wp_mkdir_p( SEJOLI_PLUGIN_FILE_DIR ) ) {
 
-	                    $this->writeLog("Complete.");
+				            $file = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
 
-	                }
+				        } else {
+
+				            $file = SEJOLI_PLUGIN_FILE_DIR . '/' . $filename;
+
+				        }
+
+		                // Save Content to file
+		                $downloaded = file_put_contents( $file, $file_data );
+
+		                if( $downloaded > 0 ) {
+
+		                	$plugin_name      = $this->core_file." v.".$repo_version;
+			                $plugin_changelog = $this->getChangelogFile();
+			                $plugin_version   = $repo_version;
+			                $plugin_category  = $this->product_repo;
+
+			                $saving_plugin_info = wp_insert_post(array (
+							   'post_type'      => 'sejoli-file-updater',
+							   'post_title'     => $plugin_name,
+							   'post_content'   => $plugin_changelog,
+							   'post_status'    => 'publish',
+							   'comment_status' => 'closed',
+							   'ping_status'    => 'closed',
+							));
+
+							if ( $saving_plugin_info ) {
+
+							   	// insert post meta
+							   	add_post_meta( $saving_plugin_info, '_sejoli_crb_repo_version', $plugin_version );
+							   	add_post_meta( $saving_plugin_info, '_sejoli_crb_repo_category', $plugin_category );
+
+						        $wp_filetype = wp_check_filetype( $filename, null );
+						        $attachment = array(
+						            'guid'           => SEJOLI_PLUGIN_FILE_URL . '/' . $filename,
+						            'post_mime_type' => $wp_filetype['type'],
+						            'post_title'     => sanitize_file_name($filename),
+						            'post_content'   => '',
+						            'post_status'    => 'inherit',
+						        );
+
+						        $attach_id = wp_insert_attachment( $attachment, $file, $saving_plugin_info );
+						        require_once(ABSPATH . 'wp-admin/includes/file.php');
+						        // $attach_data = wp_generate_attachment_metadata( $attach_id, $file );
+						        // wp_update_attachment_metadata( $attach_id, $attach_data );
+
+							}
+
+	                    	$this->writeLog("Complete.");
+
+		                }
+
+		            }
 
 	            }
 
-            }
+	        }
 
-        }
+	    endwhile;
+
+	    wp_reset_postdata(); 
 
 	}
 
@@ -257,7 +330,7 @@ class Update_Checker {
 	 */
     public function readCoreFile() {
 
-        $file          = $this->repo_url . "/" . $this->branch . $this->core_file . ".php?access_token=".$this->access_token;
+        $file          = $this->repo_url . "/" . $this->branch . "/" . $this->core_file . ".php?access_token=".$this->access_token;
         $core_file_raw = preg_replace('/github.com/', "raw.githubusercontent.com", $file);
         $core_contents = $this->getContents( $core_file_raw );
 
@@ -273,7 +346,7 @@ class Update_Checker {
 
 		    // No file found or other error.
 		    if ( $decode ) {
-		      return false;
+		      	return false;
 		    }
 
         }
@@ -349,7 +422,7 @@ class Update_Checker {
 	private function getRepoBitbucketReleaseInfo() {
 
 		$repo = $this->user_name.'/'.$this->repo_name;
-	    $url = sprintf( 'https://api.bitbucket.org/2.0/repositories/%s/refs/tags?sort=-target.date', $repo );
+	    $url  = sprintf( 'https://api.bitbucket.org/2.0/repositories/%s/refs/tags?sort=-target.date', $repo );
 
 	    $response = $this->getContentsBitbucket( $url );
 
@@ -362,12 +435,17 @@ class Update_Checker {
 	        	$tag = reset( $data->values );
 
 	        	if ( isset( $tag->name ) ) {
+
 	          		$bitbucketAPIResult = $tag;
+
+	    			return $bitbucketAPIResult;
+
 	        	}
 
 	      	}
 
 	    }
+
 	}
 
 	/**
@@ -394,7 +472,7 @@ class Update_Checker {
 
 		    // No file found or other error.
 		    if ( $decode ) {
-		      return false;
+		      	return false;
 		    }
 
         }
