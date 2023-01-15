@@ -117,7 +117,7 @@ class Sejoli_Plugin_Updater {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/admin.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/settings.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/update-checker.php';
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/update.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/update-plugin.php';
 
 		$this->loader = new Sejoli_Plugin_Updater_Loader();
 
@@ -151,16 +151,20 @@ class Sejoli_Plugin_Updater {
 
 		$admin = new Sejoli_Plugin_Updater\Admin( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'after_setup_theme',	$admin, 'load_carbon_fields', 999);
+		$this->loader->add_action( 'after_setup_theme',	$admin, 'load_carbon_fields', 999 );
 
 		$settings = new Sejoli_Plugin_Updater\Admin\Settings( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'init', $settings, 'sejoli_register_post_type', 80);
-		$this->loader->add_action( 'admin_init', $settings, 'sejoli_add_file_updater_caps', 10);
-		$this->loader->add_action( 'carbon_fields_register_fields',	$settings, 'setup_carbon_fields', 999);
-		$this->loader->add_action( 'carbon_fields_register_fields',	$settings, 'setup_carbon_fields_post_meta', 999);
+		$this->loader->add_action( 'init', $settings, 'sejoli_register_post_type', 80 );
+		$this->loader->add_action( 'init', $settings, 'sejoli_register_post_type_product_repository', 80 );
+		$this->loader->add_action( 'admin_init', $settings, 'sejoli_add_file_updater_caps', 10 );
+		$this->loader->add_action( 'carbon_fields_register_fields',	$settings, 'setup_carbon_fields_post_meta', 999 );
+		$this->loader->add_filter( 'manage_sejoli-file-updater_posts_columns', $settings, 'sejoli_file_updater_posttype_table_head' );
+		$this->loader->add_action( 'manage_sejoli-file-updater_posts_custom_column', $settings, 'sejoli_file_updater_posttype_table_content', 10, 2 );
+		$this->loader->add_filter( 'manage_edit-sejoli-file-updater_sortable_columns', $settings, 'sejoli_file_updater_posttype_table_sorting' );
+		$this->loader->add_filter( 'request', $settings, 'sejoli_file_updater_posttype_product_cat_column_orderby' );
 
-		$update = new Sejoli_Plugin_Updater\Update($repo_url = "", $branch = "", $core_file = "", $repo = "", $plugin_file = "");
+		$update = new Sejoli_Plugin_Updater\Update_Plugin();
 
 		$this->loader->add_filter( 'cron_schedules', $update, 'sejoli_checking_update_plugin_for_repositories_cron_schedules', 1 );
 		$this->loader->add_action( 'admin_init', $update, 'sejoli_schedule_checking_update_plugin_for_repositories', 1 );
